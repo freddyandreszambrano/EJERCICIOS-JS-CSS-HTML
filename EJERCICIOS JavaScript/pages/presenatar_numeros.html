@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main1.css">
+    <title>Presentar números</title>
+</head>
+<body>
+    <div>
+        <h1>Presentar números</h1>
+        <form action="../index.html">
+            <div class="input-container">
+                <input type="text" id="inicio" class="text-input" autocomplete="off" placeholder="ingrese un numero">
+                <label for="" class="label">número inicial</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="fin" class="text-input" autocomplete="off" placeholder="ingrese un numero">
+                <label for="" class="label">número final</label>
+            </div>
+            <div class="grupo">
+                <button class="buton" type="button" onclick="ejer.presentar_numeros()">Calcular</button>
+                <button class="buton" type="reset">cancelar</button>
+                <button class="buton" type="submit">Regresar</button>
+            </div>
+            <textarea id="resp" class="textarea" cols="30" rows="10">su respuesta se mostrara aquí...</textarea>
+        </form>
+    </div>
+    <script src="../js/ejercicios.js"></script>
+</body>
+</html>

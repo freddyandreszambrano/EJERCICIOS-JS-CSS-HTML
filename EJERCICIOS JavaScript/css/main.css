@@ -1,0 +1,59 @@
+body{
+    background-image: radial-gradient(circle, #7f7fd5, #7f87d9, #7f8fdd, #8097e1, #829ee4, #7ba8e9, #75b2ed, #73bbef, #6cc8f0, #70d5ee, #7de0e9, #91eae4);}    
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color:white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.opcion{
+    display: block;
+    text-align: center;
+    width:350px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#fff;
+    text-decoration: none;
+    font-weight: bold;
+    cursor:-webkit-grab ;
+    border-radius: 35px 90px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right top, #eecda3, #f5b48e, #fb9986, #fa7c8c, #ef629f);background-blend-mode: multiply,multiply;
+    
+
+}
+    
+/*botones principales*/
+.opcion::after, .buton::before{
+    content: "";
+    position: absolute;
+    opacity: 0.3;
+    border-radius: inherit;
+    
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: transform 0.3s ease;
+
+}
+.opcion:hover{
+    transform: translate(-12px, -12px);
+}
+
+
+
+
+
+
+
+
+
+
+

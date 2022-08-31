@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main1.css">
+    <title>sumar y contar</title>
+</head>
+<body>
+    <div>
+        <h1>sumar y contar números</h1>
+        <form action="../index.html">
+            <div class="input-container">
+                <input type="text" id="inicio" class="text-input" autocomplete="off" placeholder="INGRESE UN NUMERO ">
+                <label for="" class="label">valor inicial</label>
+            </div>
+            <div class="input-container">
+                <input type="text" id="final" class="text-input" autocomplete="off" placeholder="INGRESE UN NUMERO">
+                <label for="" class="label">valor final</label>
+            </div>
+            <div>
+                <button class="buton" type="button" onclick="ejer.sumar_y_contar()">Calcular</button>
+                <button class="buton" type="reset">Cancelar</button>
+                <button class="buton" type="submit">Regresar</button>
+            </div>
+            <textarea id="resp" class="textarea" cols="30" rows="10">su respuestas se mostrara aquí</textarea>
+        </form>
+    </div>
+    <script src="../js/ejercicios.js"></script>
+</body>
+</html>
